@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Discore" Version="2.4.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="1.1.2" />
+    <PackageReference Include="CsvHelper" Version="2.16.3" />
+    <PackageReference Include="NETStandard.Library" Version="1.6.1" />
+    <PackageReference Include="NuGet.Build" Version="2.12.0" />
+    <PackageReference Include="NuGet.CommandLine" Version="4.4.1" />
+    <PackageReference Include="NuGet.Common" Version="4.5.0" />
+    <PackageReference Include="NuGet.VisualStudio" Version="4.5.0" />
+  </ItemGroup>
+
+</Project>

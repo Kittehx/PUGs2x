@@ -1,0 +1,12 @@
+C:\Users\Mighty\Desktop\K8Gatheriino-master\K8Gatheriino-master\project\K8GatherBot\bin\Debug\netcoreapp1.1\K8GatherBot.deps.json
+C:\Users\Mighty\Desktop\K8Gatheriino-master\K8Gatheriino-master\project\K8GatherBot\bin\Debug\netcoreapp1.1\K8GatherBot.runtimeconfig.json
+C:\Users\Mighty\Desktop\K8Gatheriino-master\K8Gatheriino-master\project\K8GatherBot\bin\Debug\netcoreapp1.1\K8GatherBot.runtimeconfig.dev.json
+C:\Users\Mighty\Desktop\K8Gatheriino-master\K8Gatheriino-master\project\K8GatherBot\bin\Debug\netcoreapp1.1\K8GatherBot.dll
+C:\Users\Mighty\Desktop\K8Gatheriino-master\K8Gatheriino-master\project\K8GatherBot\bin\Debug\netcoreapp1.1\K8GatherBot.pdb
+C:\Users\Mighty\Desktop\K8Gatheriino-master\K8Gatheriino-master\project\K8GatherBot\obj\Debug\netcoreapp1.1\K8GatherBot.Properties.Resources.resources
+C:\Users\Mighty\Desktop\K8Gatheriino-master\K8Gatheriino-master\project\K8GatherBot\obj\Debug\netcoreapp1.1\K8GatherBot.csproj.GenerateResource.Cache
+C:\Users\Mighty\Desktop\K8Gatheriino-master\K8Gatheriino-master\project\K8GatherBot\obj\Debug\netcoreapp1.1\K8GatherBot.csproj.CoreCompileInputs.cache
+C:\Users\Mighty\Desktop\K8Gatheriino-master\K8Gatheriino-master\project\K8GatherBot\obj\Debug\netcoreapp1.1\K8GatherBot.AssemblyInfoInputs.cache
+C:\Users\Mighty\Desktop\K8Gatheriino-master\K8Gatheriino-master\project\K8GatherBot\obj\Debug\netcoreapp1.1\K8GatherBot.AssemblyInfo.cs
+C:\Users\Mighty\Desktop\K8Gatheriino-master\K8Gatheriino-master\project\K8GatherBot\obj\Debug\netcoreapp1.1\K8GatherBot.dll
+C:\Users\Mighty\Desktop\K8Gatheriino-master\K8Gatheriino-master\project\K8GatherBot\obj\Debug\netcoreapp1.1\K8GatherBot.pdb

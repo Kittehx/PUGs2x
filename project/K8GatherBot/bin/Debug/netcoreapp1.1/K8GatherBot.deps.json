@@ -1,0 +1,453 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v1.1",
+    "signature": "b59458af8fe8ddf9a928d75b668e2a48868a6360"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v1.1": {
+      "K8GatherBot/1.0.0": {
+        "dependencies": {
+          "CsvHelper": "2.16.3",
+          "Discore": "2.4.1",
+          "Microsoft.Extensions.Configuration.Json": "1.1.2",
+          "NuGet.Build": "2.12.0",
+          "NuGet.CommandLine": "4.4.1",
+          "NuGet.Common": "4.5.0",
+          "NuGet.VisualStudio": "4.5.0"
+        },
+        "runtime": {
+          "K8GatherBot.dll": {}
+        }
+      },
+      "CsvHelper/2.16.3": {
+        "runtime": {
+          "lib/netstandard1.3/CsvHelper.dll": {}
+        }
+      },
+      "Discore/2.4.1": {
+        "dependencies": {
+          "Newtonsoft.Json": "10.0.3",
+          "Nito.AsyncEx.Coordination": "1.0.2",
+          "System.Collections.NonGeneric": "4.3.0",
+          "System.Net.WebSockets.Client": "4.3.1"
+        },
+        "runtime": {
+          "lib/netstandard1.6/Discore.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Configuration/1.1.2": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "1.1.2"
+        },
+        "runtime": {
+          "lib/netstandard1.1/Microsoft.Extensions.Configuration.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Configuration.Abstractions/1.1.2": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "1.1.1"
+        },
+        "runtime": {
+          "lib/netstandard1.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Configuration.FileExtensions/1.1.2": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "1.1.2",
+          "Microsoft.Extensions.FileProviders.Physical": "1.1.1"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Microsoft.Extensions.Configuration.FileExtensions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Configuration.Json/1.1.2": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "1.1.2",
+          "Microsoft.Extensions.Configuration.FileExtensions": "1.1.2",
+          "Newtonsoft.Json": "10.0.3",
+          "System.Runtime.Serialization.Primitives": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Microsoft.Extensions.Configuration.Json.dll": {}
+        }
+      },
+      "Microsoft.Extensions.FileProviders.Abstractions/1.1.1": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "1.1.1"
+        },
+        "runtime": {
+          "lib/netstandard1.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.FileProviders.Physical/1.1.1": {
+        "dependencies": {
+          "Microsoft.Extensions.FileProviders.Abstractions": "1.1.1",
+          "Microsoft.Extensions.FileSystemGlobbing": "1.1.1"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Microsoft.Extensions.FileProviders.Physical.dll": {}
+        }
+      },
+      "Microsoft.Extensions.FileSystemGlobbing/1.1.1": {
+        "runtime": {
+          "lib/netstandard1.3/Microsoft.Extensions.FileSystemGlobbing.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Primitives/1.1.1": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.0/Microsoft.Extensions.Primitives.dll": {}
+        }
+      },
+      "Newtonsoft.Json/10.0.3": {
+        "dependencies": {
+          "System.ComponentModel.TypeConverter": "4.3.0",
+          "System.Runtime.Serialization.Formatters": "4.3.0",
+          "System.Runtime.Serialization.Primitives": "4.3.0",
+          "System.Xml.XmlDocument": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Nito.AsyncEx.Coordination/1.0.2": {
+        "dependencies": {
+          "Nito.AsyncEx.Tasks": "1.0.1",
+          "Nito.Collections.Deque": "1.0.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Nito.AsyncEx.Coordination.dll": {}
+        }
+      },
+      "Nito.AsyncEx.Tasks/1.0.1": {
+        "dependencies": {
+          "Nito.Disposables": "1.0.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Nito.AsyncEx.Tasks.dll": {}
+        }
+      },
+      "Nito.Collections.Deque/1.0.0": {
+        "runtime": {
+          "lib/netstandard1.0/Nito.Collections.Deque.dll": {}
+        }
+      },
+      "Nito.Disposables/1.0.0": {
+        "runtime": {
+          "lib/netstandard1.0/Nito.Disposables.dll": {}
+        }
+      },
+      "NuGet.Build/2.12.0": {
+        "dependencies": {
+          "NuGet.CommandLine": "4.4.1"
+        }
+      },
+      "NuGet.CommandLine/4.4.1": {},
+      "NuGet.Common/4.5.0": {
+        "dependencies": {
+          "NuGet.Frameworks": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/NuGet.Common.dll": {}
+        }
+      },
+      "NuGet.Frameworks/4.5.0": {
+        "runtime": {
+          "lib/netstandard1.3/NuGet.Frameworks.dll": {}
+        }
+      },
+      "NuGet.VisualStudio/4.5.0": {},
+      "System.Collections.NonGeneric/4.3.0": {
+        "runtime": {
+          "lib/netstandard1.3/System.Collections.NonGeneric.dll": {}
+        }
+      },
+      "System.Collections.Specialized/4.3.0": {
+        "dependencies": {
+          "System.Collections.NonGeneric": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.Collections.Specialized.dll": {}
+        }
+      },
+      "System.ComponentModel.Primitives/4.3.0": {
+        "runtime": {
+          "lib/netstandard1.0/System.ComponentModel.Primitives.dll": {}
+        }
+      },
+      "System.ComponentModel.TypeConverter/4.3.0": {
+        "dependencies": {
+          "System.Collections.NonGeneric": "4.3.0",
+          "System.Collections.Specialized": "4.3.0",
+          "System.ComponentModel.Primitives": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.5/System.ComponentModel.TypeConverter.dll": {}
+        }
+      },
+      "System.Net.WebSockets/4.3.0": {
+        "runtime": {
+          "lib/netstandard1.3/System.Net.WebSockets.dll": {}
+        }
+      },
+      "System.Net.WebSockets.Client/4.3.1": {
+        "dependencies": {
+          "System.Net.WebSockets": "4.3.0"
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netstandard1.3/System.Net.WebSockets.Client.dll": {
+            "rid": "unix",
+            "assetType": "runtime"
+          },
+          "runtimes/win/lib/netstandard1.3/System.Net.WebSockets.Client.dll": {
+            "rid": "win",
+            "assetType": "runtime"
+          }
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/4.3.0": {
+        "runtime": {
+          "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        }
+      },
+      "System.Runtime.Serialization.Formatters/4.3.0": {
+        "dependencies": {
+          "System.Runtime.Serialization.Primitives": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.4/System.Runtime.Serialization.Formatters.dll": {}
+        }
+      },
+      "System.Runtime.Serialization.Primitives/4.3.0": {
+        "runtime": {
+          "lib/netstandard1.3/System.Runtime.Serialization.Primitives.dll": {}
+        }
+      },
+      "System.Xml.XmlDocument/4.3.0": {
+        "runtime": {
+          "lib/netstandard1.3/System.Xml.XmlDocument.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "K8GatherBot/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CsvHelper/2.16.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RTxNM9Q6MDg3WpGorrK7E9eXsjGhtDLYx5dBuHol5kHDpu7kND2NveHDVCFQgGxowuDB57ettaOEn3EJqiJ1oQ==",
+      "path": "csvhelper/2.16.3",
+      "hashPath": "csvhelper.2.16.3.nupkg.sha512"
+    },
+    "Discore/2.4.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RXw/n9seuaaj/2HeohARDjQ1AR0iaq4QqGUGf7YJfkA9/D8s3Eoq6FbGbjab+5ZRJFfprLs3ZmJxyjSKbxqniQ==",
+      "path": "discore/2.4.1",
+      "hashPath": "discore.2.4.1.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration/1.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eK5BHx/pHLGGO/WDo7CS070MGgx3N7B/ORO/oKeS0qgCyv+ZAR47YWKXmG5aF+lIrAJd3uJjMTdTKgXTU2UDWw==",
+      "path": "microsoft.extensions.configuration/1.1.2",
+      "hashPath": "microsoft.extensions.configuration.1.1.2.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.Abstractions/1.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-I1BRk2OCjOondHFc0flHFMxLTbsOPQdB0CxexkZOHcAD1oAWC2KcpxvmmQ07kLUcYKbtSdtvPkm7YPdw8bdJ9Q==",
+      "path": "microsoft.extensions.configuration.abstractions/1.1.2",
+      "hashPath": "microsoft.extensions.configuration.abstractions.1.1.2.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.FileExtensions/1.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QYnwsXY/cBRno3XrNvfuldcZpNS/Nl2vV2uJsNtRh1hMBHYU3dLwJ4G/bKCMHgVmY/XOInDZhQ2bWadcwo+Ouw==",
+      "path": "microsoft.extensions.configuration.fileextensions/1.1.2",
+      "hashPath": "microsoft.extensions.configuration.fileextensions.1.1.2.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.Json/1.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZDJulZ+K9Yai3YtAamk6hN3vneJAwZ+9cBmtJSND0C4PxX8jQSSTHAE3acG3qyubRJM9xbxG5JrVaLCGPxcrBg==",
+      "path": "microsoft.extensions.configuration.json/1.1.2",
+      "hashPath": "microsoft.extensions.configuration.json.1.1.2.nupkg.sha512"
+    },
+    "Microsoft.Extensions.FileProviders.Abstractions/1.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Z/XGMFZ8IuTcd8j5D/77jnajN5ZEs/NCH+LZkMUKKW2d9rpg10VtPhDsvMwKNhI+kcdTE00G/obXUF7Ruuwqlg==",
+      "path": "microsoft.extensions.fileproviders.abstractions/1.1.1",
+      "hashPath": "microsoft.extensions.fileproviders.abstractions.1.1.1.nupkg.sha512"
+    },
+    "Microsoft.Extensions.FileProviders.Physical/1.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oZXTzE3DdBkLgJqIOttIuEyNjufkZnK0V3reCO6WAJlFx+qgZlI9Eoi5+NhhGoUbEayU0Iyw9NtSCQI1SF8knQ==",
+      "path": "microsoft.extensions.fileproviders.physical/1.1.1",
+      "hashPath": "microsoft.extensions.fileproviders.physical.1.1.1.nupkg.sha512"
+    },
+    "Microsoft.Extensions.FileSystemGlobbing/1.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aSnRFPBR2uHhhQgsUXaryw6BBYFGwIN/743L7lloxydcTTJylpSZjCjd8/w62e2xzyypCVa7fkc6IRzkUEIwyg==",
+      "path": "microsoft.extensions.filesystemglobbing/1.1.1",
+      "hashPath": "microsoft.extensions.filesystemglobbing.1.1.1.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Primitives/1.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MrsHOyFpwT+LBzGWp/Oq3pV1Vku8FYE6hgO+2XR0WBRtoI9EaJcpRbtBabS7pXYrkIN1/LOXACpZ9Stqmbrs6A==",
+      "path": "microsoft.extensions.primitives/1.1.1",
+      "hashPath": "microsoft.extensions.primitives.1.1.1.nupkg.sha512"
+    },
+    "Newtonsoft.Json/10.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hSXaFmh7hNCuEoC4XNY5DrRkLDzYHqPx/Ik23R4J86Z7PE/Y6YidhG602dFVdLBRSdG6xp9NabH3dXpcoxWvww==",
+      "path": "newtonsoft.json/10.0.3",
+      "hashPath": "newtonsoft.json.10.0.3.nupkg.sha512"
+    },
+    "Nito.AsyncEx.Coordination/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jEZHo/pFKD6kzjuxpAGcWWFT7J3UGft2NH6zZ7cBjO3k5s9SDoQhLJxSRDafx44gbao7PK8IQXxIOLBKIPPQTg==",
+      "path": "nito.asyncex.coordination/1.0.2",
+      "hashPath": "nito.asyncex.coordination.1.0.2.nupkg.sha512"
+    },
+    "Nito.AsyncEx.Tasks/1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FtQi5Qj22kxHNQv8XPYXp2xc4PPTfyr5jGATgDqRml9BF8OEYwuntSRrbGbxlbWpp0ossrXyUq2gIV1CTQQB2w==",
+      "path": "nito.asyncex.tasks/1.0.1",
+      "hashPath": "nito.asyncex.tasks.1.0.1.nupkg.sha512"
+    },
+    "Nito.Collections.Deque/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2ny5gBj0foXRqxQMlHBFhhc2tSzHQmcLEa8zh7XD6xI0D31KTLae3ivjikjzUkHS+sAP6rHjWmNu5a+79Dln4w==",
+      "path": "nito.collections.deque/1.0.0",
+      "hashPath": "nito.collections.deque.1.0.0.nupkg.sha512"
+    },
+    "Nito.Disposables/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Q9zaPuXHE8GTYJmGcGK5RFlD+m1X4zOhRZAs3/mEXp3SuvHOh/mP7gcGCLTaibNsGtcXzXCsOzB05Gt9nlu9VQ==",
+      "path": "nito.disposables/1.0.0",
+      "hashPath": "nito.disposables.1.0.0.nupkg.sha512"
+    },
+    "NuGet.Build/2.12.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mial2cDYsy79nHbu4GVkyHBeT8/MnM9sWRtxV3Z8kcKL5JqwS6PZoG7uwUQTtNdj0e3g05PvuOauU/wDBUqZoQ==",
+      "path": "nuget.build/2.12.0",
+      "hashPath": "nuget.build.2.12.0.nupkg.sha512"
+    },
+    "NuGet.CommandLine/4.4.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-c6HpeBpZx1bwKXUFnZhwlBzzPYcf/ETPxEPeNlh/4s4MAfp8WOqcIuAjTCrARBP6uyZiloukjch8whyzyPDdtQ==",
+      "path": "nuget.commandline/4.4.1",
+      "hashPath": "nuget.commandline.4.4.1.nupkg.sha512"
+    },
+    "NuGet.Common/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pid1ADp95XyrtQIhsY8Th9gIsW9VUazA2/l1wCDd20NBn62Vo8z5aVko/5ANghOiFMf53rtP4ktXgu2YtDQIXA==",
+      "path": "nuget.common/4.5.0",
+      "hashPath": "nuget.common.4.5.0.nupkg.sha512"
+    },
+    "NuGet.Frameworks/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nsOD687U8b1NHNBeasLh6HMxtmwbe1twARlpcDjV+nsja4W/Pxr+fvE5909IH3xz4cnYV6Ho51K3DJip5F5Kiw==",
+      "path": "nuget.frameworks/4.5.0",
+      "hashPath": "nuget.frameworks.4.5.0.nupkg.sha512"
+    },
+    "NuGet.VisualStudio/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-N8mvrIB03Erv0FUayM2C8SXrnMO0WIgQdbppi1UKIMMJwhaO/r7qbkwlzWswVmCWS3Z/OViGd7a+1ZamJ0pmzA==",
+      "path": "nuget.visualstudio/4.5.0",
+      "hashPath": "nuget.visualstudio.4.5.0.nupkg.sha512"
+    },
+    "System.Collections.NonGeneric/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-U9LJRI4LeRaqzNxjCwf6pqqaXomuyYMiq+Zi+2ySTUjstEev8hpv3Bj8dR4BHL6wyWz36NquB4u77K9g/iWq/w==",
+      "path": "system.collections.nongeneric/4.3.0",
+      "hashPath": "system.collections.nongeneric.4.3.0.nupkg.sha512"
+    },
+    "System.Collections.Specialized/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rHPZILyTKCACfhQBIBA0DA2kXULdlxZMna5oTavUhFTb/J0E6lEv6nUPwx0KLusCfCMosScFmf7VFrEOAZoUwQ==",
+      "path": "system.collections.specialized/4.3.0",
+      "hashPath": "system.collections.specialized.4.3.0.nupkg.sha512"
+    },
+    "System.ComponentModel.Primitives/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-PYVwz2j+ogCa8fBNDxBnN+p3FzN7P9zphgT+DRev+Z8QpgE2cyOs5V98QDRhQ7GvLpGmbOdFitDiE3QpZbxlog==",
+      "path": "system.componentmodel.primitives/4.3.0",
+      "hashPath": "system.componentmodel.primitives.4.3.0.nupkg.sha512"
+    },
+    "System.ComponentModel.TypeConverter/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cFcLS6erJWvlE+fvMawY9ggRze1AU3NRn7bwJr4aMuok5Vkpx3s68q1gVrfr11RpvEwX3MdnGnxL4L0F22yslw==",
+      "path": "system.componentmodel.typeconverter/4.3.0",
+      "hashPath": "system.componentmodel.typeconverter.4.3.0.nupkg.sha512"
+    },
+    "System.Net.WebSockets/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-u6fFNY5q4T8KerUAVbya7bR6b7muBuSTAersyrihkcmE5QhEOiH3t5rh4il15SexbVlpXFHGuMwr/m8fDrnkQg==",
+      "path": "system.net.websockets/4.3.0",
+      "hashPath": "system.net.websockets.4.3.0.nupkg.sha512"
+    },
+    "System.Net.WebSockets.Client/4.3.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uQ2JCw7PuWx/TsGc5uyMibp2X1Rui3iUpS3AHnWT7k/8A7ORTNIRktxgmrCDrgBFm771+JS+FGQPANRuWOBMTQ==",
+      "path": "system.net.websockets.client/4.3.1",
+      "hashPath": "system.net.websockets.client.4.3.1.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rcnXA1U9W3QUtMSGoyoNHH6w4V5Rxa/EKXmzpORUYlDAlDB34hIQoU57ATXl8xHa83VvzRm6PcElEizgUd7U5w==",
+      "path": "system.runtime.compilerservices.unsafe/4.3.0",
+      "hashPath": "system.runtime.compilerservices.unsafe.4.3.0.nupkg.sha512"
+    },
+    "System.Runtime.Serialization.Formatters/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fEg0clgSCohlJRaRzagmIcoqGZs9o0WhYCzpUFi3zpkDBV/iwQ+WGwRPVkISOscCSmKjF1i/0HiTo+Hgsf+3fQ==",
+      "path": "system.runtime.serialization.formatters/4.3.0",
+      "hashPath": "system.runtime.serialization.formatters.4.3.0.nupkg.sha512"
+    },
+    "System.Runtime.Serialization.Primitives/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8EgO7A6h21veEvrpJZo9m8OuIpEIwsNZgs2z/WXs604qZqSUizhnqdYSgplZi8NrYUUbKal1dGgLfPFI8bWckQ==",
+      "path": "system.runtime.serialization.primitives/4.3.0",
+      "hashPath": "system.runtime.serialization.primitives.4.3.0.nupkg.sha512"
+    },
+    "System.Xml.XmlDocument/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hSxcmvtQ9tORJVh8317Zi5IcLeNoKBf+GCKC/g6x8AwUg6t8DrncNBo1afqtLene9Um1jril74t5lOFaLkWJXQ==",
+      "path": "system.xml.xmldocument/4.3.0",
+      "hashPath": "system.xml.xmldocument.4.3.0.nupkg.sha512"
+    }
+  }
+}
